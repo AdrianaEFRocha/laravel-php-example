@@ -7,13 +7,13 @@
 
 <div class="container">
 <div class="row">
-  <div id="carouselExampleControls" class="carousel slide w-75" data-bs-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide w-100 mx-auto" data-bs-ride="carousel">
         <div class="carousel-inner">
+        <div class="carousel-item">
+            <img src="{{ asset('/img/home/animais2.png') }}" class="d-block w-100" alt="...">  
+          </div>
           <div class="carousel-item active">
             <img src="{{ asset('/img/home/animais.jpeg') }}" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="{{ asset('/img/home/animais2.png') }}" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="{{ asset('/img/home/animais3.jpeg') }}" class="d-block w-100" alt="...">

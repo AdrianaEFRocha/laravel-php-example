@@ -18,9 +18,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" href="{{ route('home.index') }}">Home</a>
+                    <a class="nav-link active" href="{{ route('home.index') }}">Início</a>
                     <a class="nav-link active" href="{{ route('alunos.index') }}">Alunos</a>
-                    <a class="nav-link active" href="{{ route('home.about') }}">About</a>
+                    <a class="nav-link active" href="{{ route('product.index') }}">Produtos</a>
+                    <a class="nav-link active" href="{{ route('home.about') }}">Sobre</a>
                 </div>
             </div>
         </div>

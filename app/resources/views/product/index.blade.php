@@ -3,13 +3,13 @@
 @section('subtitle', $viewData["subtitle"])
 @section('content')
 <div class="row">
-  @foreach ($viewData["alunos"] as $alunos)
+  @foreach ($viewData["products"] as $product)
   <div class="col-md-4 col-lg-3 mb-2">
     <div class="card">
-      <img src="{{ asset('/img/'.$alunos['image']) }}" class="card-img-top img-card" width="120px" height="150px">
+      <img src="{{ asset('/img/product/'.$product['image']) }}" class="card-img-top img-card" width="180px" height="200px">
       <div class="card-body text-center">
-        <a href="{{ route('alunos.show', ['id'=> $alunos['id']]) }}"
-          class="btn bg-primary text-white">{{ $alunos["name"] }}</a>
+        <a href="{{ route('product.show', ['id'=> $product['id']]) }}"
+          class="btn bg-primary text-white">{{ $product["name"] }}</a>
       </div>
     </div>
   </div>
