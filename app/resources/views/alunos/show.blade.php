@@ -10,10 +10,10 @@
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">
-           {{ $viewData["alunos"]["name"] }} ({{ $viewData["alunos"]["idade"] }})
+           {{ $viewData["alunos"]["name"] }} 
         </h5>
         <p class="card-text">{{ $viewData["alunos"]["description"] }}</p>
-        <p class="card-text"><small class="text-muted">Add to Cart</small></p>
+        <p class="card-text"><small class="text-muted">Idade: {{ $viewData["alunos"]["idade"] }} </small></p>
       </div>
     </div>
   </div>
